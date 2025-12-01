@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+body {
+    width: 100vw;
+    background-color: #b9b2b2;
+
+}
+.container3{
+    display: flex;
+    gap: 72px;
+}
+.container2 {
+    display: flex;
+    gap: 52px;
+    height: 470px;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border: 1px solid darkslategrey;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px #252525;
+    outline: none;
+    border-radius: 3px;
+    width: 305px;
+    height: 44px;
+    padding-left: 16px;
+}
+
+label {
+    color: #252B42;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: bold;
+
+}
+
+#formdata {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30px;
+    background-color: #737373;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #252525;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+#btn {
+    border: none;
+    background-color: #252B42;
+    color: #ffffff;
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    width: 305px;
+    height: 44px;
+    padding: 11px 106px;
+    margin-top: 42px;
+}
+
+.btnX {
+    border: none;
+    background-color: #252B42;
+    color: #ffffff;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 14px;
+    width: 44px;
+    height: 44px;
+    padding: 11px;
+    margin-top: 20px;
+    margin-left: 305px;
+    border-radius: 25%;
+    transition: 0.2s;
+}
+
+.btnX:hover {
+    box-shadow: 0 0 5px #252525;
+    transition: 0.2s;
+}
+
+.ctn {
+    margin-top: 25px;
+    background-color: #ffffff;
+    width: 375px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.img {
+    width: 327px;
+    height: 311px;
+    border-radius: 10px;
+    margin: 24px 24px 0 24px;
+    box-shadow: 0 0 5px #252525;
+}
+
+.content {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 290px;
+    text-wrap: wrap;
+}
+
+.h5 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 24px;
+    color: #252B42;
+}
+
+.productName {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #737373;
+}
+
+.productPrice {
+    color: #2ccd08;
+    font-size: 28px;
+    line-height: 20px;
+    font-weight: 700;
+    opacity: 0.9;
+    margin-bottom: 32px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
